@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+.container1{
+  width: 900px;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.container2{
+  width: 80%;
+  height: 80%;
+  margin: auto;
+}
+
+img{
+  margin-top: 80px;
+  width: 20%;
+  height: 15%;
+}
+
+header{
+  text-align: center;
+}
+
+header > div{
+  background-color: rgba(14, 222, 14, 1);
+  margin-top: 3px;
+}
+
+h2{
+  color: rgba(14, 222, 14, 1);
+}
+
+button{
+  margin: 6px;
+  height: 15px;
+  font-size: 10px;
+}
+
+section{
+  margin-top: 20px;
+  color: white;
+}
+
+input{
+  width: 10px;
+  height: 10px;
+}
+.scooter-id{
+  font-size: 20px;
+}
+
+.address::before{
+   content:"\203A";
+}
+
+span + div{
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.carica{
+  height: 20px;
+  border-radius: 4px;
+}
+
+.carica.gino22{
+  width: 30%;
+  background-color: orange;
+}
+
+.carica.mike24{
+  width: 60%;
+  background-color: rgba(14, 222, 14, 1);
+}
+
+.carica.fede154{
+  width: 15%;
+  background-color: darkred;
+}
